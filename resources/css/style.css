@@ -138,13 +138,16 @@ nav a:hover {
     width: 100%;
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
-    background-image: url(../Images/kaggle-project.png);
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: flex-end;
     border-bottom: solid 3px rgb(151, 101, 111);
     text-decoration: none;
+}
+
+#kaggle {
+    background-image: url(../Images/kaggle-project.png);
 }
 
 .image-container:hover {
@@ -192,15 +195,17 @@ nav a:hover {
     width: 100%;
     /*border: solid 1px black; */
     flex: 1;
-    padding: 0 0.6rem;
+    padding: 0 0.6rem 0.4rem;
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .language {
     height: 1.4rem;
     background-color:#441f29;
     padding: 0.2rem 0.6rem;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 0.7rem;
     margin: 0.3rem;
     color: #ffffff;
@@ -211,9 +216,9 @@ nav a:hover {
     height: 1.4rem;
     background-color: #bc8994;
     padding: 0.2rem 0.6rem;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 0.7rem;
-    margin: 0.3rem;
+    margin: 0.3rem 0.3rem;
     color: white;
     text-shadow: #764754 0 0 4px;
     box-shadow: #a16c7ad9 0 0 10px;
@@ -225,4 +230,8 @@ nav a:hover {
     font-family: "Roboto Mono";
     font-size: 0.85rem;
     letter-spacing: 1px;
+}
+
+#pneumonia {
+    background-image: url(../Images/pneumonia-project.png);
 }
