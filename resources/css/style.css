@@ -15,6 +15,7 @@ header {
     border: solid 2px #f79aaf;
     background-color: #3b2229ee;
     z-index: 2;
+    height: 5.7rem;
 }
 
 header .content {
@@ -29,28 +30,25 @@ header .content {
     color: 	#ebabbb;
     text-decoration: none;
     font-family: "PT Serif";
-    padding-left: 2rem;
+    padding-left: 4.8rem;
 }
-
-
-ul {
-    list-style: none;
-    margin: 0;
-
-}
-
 
 header nav ul {
+    list-style: none;
+    margin: 0;
     display: flex;
-    padding-right: 1rem;
+    padding-right: 4rem;
 }
 
 nav li {
-    padding: 0 1.2rem;
+    padding: 0.5rem 1.2rem;
+    align-items: center;
 }
 
 nav a {
-    vertical-align: bottom;
+    text-align: center;
+    align-items: center;
+    padding: 0.1rem 0;
     line-height: 1.6;
     font-size: 1.15rem;
     letter-spacing: 1px;
@@ -68,11 +66,18 @@ nav a:hover {
 
 .main-content {
     position: relative;
-    top: 5rem;
+    top: 5.6rem;
+}
+
+.home {
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
 .slogan {
     font-size: 6.5rem;
+    vertical-align: top;
     color: #dd9faf;
     text-align: center;
     padding: 6rem 3rem;
@@ -91,10 +96,7 @@ nav a:hover {
     background-color: #441f29;
     height: auto;
     padding-bottom: 5rem;
-}
-
-.section-head {
-
+    margin-bottom: 5.6rem;
 }
 
 .projects h2 {
@@ -191,7 +193,7 @@ nav a:hover {
     text-align: left;
 }
 
-.skills {
+.myskills {
     width: 100%;
     /*border: solid 1px black; */
     flex: 1;
@@ -224,7 +226,7 @@ nav a:hover {
     box-shadow: #a16c7ad9 0 0 10px;
 }
 
-.skills a {
+.myskills a {
     text-align: center;
     align-items: center;
     font-family: "Roboto Mono";
@@ -238,4 +240,44 @@ nav a:hover {
 
 #insole {
     background-image: url(../Images/insole-project.png);
+}
+
+footer {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    padding: 3.4rem 6.5rem;
+}
+
+.copyright {
+    align-items: center;
+    flex: 1;
+}
+
+.copyright p {
+    font-size: 1.2rem;
+    color: #efd7dddd;
+}
+
+.logos {
+    display: flex;
+}
+
+.logos i {
+    color: #fed9e2dd;
+    margin-left: 2rem;
+    transition: 200ms ease-in 20ms;
+}
+
+.logos i:hover {
+    color: #ffffffdd;
+}
+
+.logos .fa-envelope {
+    margin-top: 6px;
 }
