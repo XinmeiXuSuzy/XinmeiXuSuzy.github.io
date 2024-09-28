@@ -56,12 +56,13 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: Roboto;
-    transition: 100ms linear 20ms;
+    transition: 100ms linear 40ms;
 }
 
 nav a:hover {
     color: #e9ced9;
     font-size: 1.2rem;
+    text-shadow: #e9ced955 0 0 8px;
 }
 
 .main-content {
@@ -96,7 +97,6 @@ nav a:hover {
     background-color: #441f29;
     height: auto;
     padding-bottom: 5rem;
-    margin-bottom: 5.6rem;
 }
 
 .projects h2 {
@@ -240,6 +240,91 @@ nav a:hover {
 
 #insole {
     background-image: url(../Images/insole-project.png);
+}
+
+/* About */
+
+.about {
+    width: 100%;
+    height: auto;
+}
+
+.cloud-section {
+    width: 100%;
+    padding: 4rem 9rem;
+    background-color: #ba8ea0;
+    margin-bottom: 5.6rem;
+}
+
+.cloud-section h2 {
+    padding: 2rem auto;
+    text-align: center;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-family: "PT Serif";
+    letter-spacing: 3px;
+    color:#ffeef5;
+    font-weight: 700;
+    text-shadow: #170c10 0 0 10px;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.cloud-container {
+    background-color: #2c0c15;
+    padding: 5rem;
+    box-shadow: #623845 0 0 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cloud-container ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cloud-container li {
+    padding: 0.5rem;
+    font-family: "PT Serif";
+    text-shadow: #1f0305 0 0 2rem;
+    transition: 100ms ease-out 40ms;
+}
+
+.cloud-container li:hover {
+    text-shadow: #6d3a3c 0 0 5px;
+}
+
+.level-2 {
+    color: #f2d3d5;
+    font-size: 1.5rem;
+}
+
+.level-3 {
+    font-size: 2rem;
+    color:#e2b2be;
+    text-shadow: #2a0911 0 0 1rem;
+}
+
+.level-4 {
+    font-size: 3.5rem;
+    color:#b27787;
+    text-shadow: #2a0911 0 0 1rem;
+}
+
+.level-5 {
+    font-size: 4.8rem;
+    color:#9e5a6b;
+    text-shadow: #2a0911 0 0 1rem;
+}
+
+.level-6 {
+    font-size: 6rem;
+    color:#e0b3bf;
+    text-shadow: #2a0911 0 0 1rem;
 }
 
 footer {
