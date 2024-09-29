@@ -336,7 +336,7 @@ footer {
 
 .footer-content {
     display: flex;
-    padding: 3.4rem 6.5rem;
+    padding: 3.4rem 6.5rem 3.4rem 5rem;
 }
 
 .copyright {
