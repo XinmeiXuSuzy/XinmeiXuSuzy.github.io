@@ -120,7 +120,7 @@ nav a:hover {
 
 .project-block {
     border: solid 4px rgb(151, 101, 111);
-    min-height: 34rem;
+    min-height: 35rem;
     min-width: 20rem;
     flex: 1;
     margin: 2.3rem;
@@ -240,6 +240,14 @@ nav a:hover {
 
 #insole {
     background-image: url(../Images/insole-project.png);
+}
+
+#immc {
+    background-image: url(../Images/IMMC-project.png);
+}
+
+#himcm {
+    background-image: url(../Images/himcm-project.png);
 }
 
 /* About */
